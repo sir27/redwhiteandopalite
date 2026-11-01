@@ -80,4 +80,13 @@ lyrics.addEventListener('keydown', e => {
 document.getElementById('close').addEventListener('click', closePanel);
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
 
+function updateHeaderHeight() {
+  const h = document.querySelector('header').offsetHeight;
+  document.documentElement.style.setProperty('--header-h', h + 'px');
+}
+updateHeaderHeight();
+window.addEventListener('resize', updateHeaderHeight);
+window.addEventListener('load', updateHeaderHeight);
+if (document.fonts) document.fonts.ready.then(updateHeaderHeight);
+
 setMode('explain');
