@@ -2,132 +2,132 @@
 // `body` is HTML; `questions` are civics test question numbers (see questions.js).
 // `title` is optional (defaults to the highlighted lyric text).
 const ANNOTATIONS = {
-  "amendments": {
+  amendments: {
     body: "The Constitution has 27 amendments.",
-    questions: [5, 7]
+    questions: [5, 7],
   },
-  "authors": {
+  authors: {
     body: "Alexander Hamilton, James Madison, and John Jay were writers of the Federalist Papers.",
-    questions: [83, 88, 89]
+    questions: [83, 88, 89],
   },
-  "helped": {
+  helped: {
     body: "The Federalist Papers explained and defended the Constitution to the public.",
-    questions: [84]
+    questions: [84],
   },
-  "commander": {
+  commander: {
     body: "The U.S. President is Commander in Chief of the military.",
-    questions: [41, 42]
+    questions: [41, 42],
   },
-  "twoterms": {
+  twoterms: {
     body: "U.S. Presidents serve a maximum of two terms.",
-    questions: [37]
+    questions: [37],
   },
-  "justices": {
+  justices: {
     body: "There are nine judges in the Supreme Court. The judicial branch interprets law.",
-    questions: [50, 51, 53]
+    questions: [50, 51, 53],
   },
-  "tillgone": {
+  tillgone: {
     body: "Supreme Court justices serve for life.",
-    questions: [55]
+    questions: [55],
   },
-  "wethepeople": {
+  wethepeople: {
     body: "The Constitution establishes self-government for the United States.",
-    questions: [4]
+    questions: [4],
   },
-  "forms": {
+  forms: {
     body: "The Constitution is the country’s founding document.",
-    questions: [3]
+    questions: [3],
   },
-  "oath": {
-    body: "In making the Oath of Allegiance, naturalized citizens promised to defend the Constitution. (Note: At least one other answer is expected for this question; see the question below.)",
-    questions: [67]
+  oath: {
+    body: "In making the Oath of Allegiance, naturalized citizens promise to defend the Constitution. (Note: At least one other answer is expected for this question; see the question below.)",
+    questions: [67],
   },
-  "assembly": {
+  assembly: {
     body: "The moving assembly line was developed for the Ford Model T in Michigan in 1913.",
-    questions: [118]
+    questions: [118],
   },
-  "branches": {
+  branches: {
     body: "The three branches of the government (executive, legislative, judicial) establish checks and balances to prevent any one branch from becoming too powerful.",
-    questions: [15]
+    questions: [15],
   },
-  "nolaw": {
+  nolaw: {
     body: "The rule of law states that no one is above the law.",
-    questions: [13]
+    questions: [13],
   },
-  "choctaw": {
+  choctaw: {
     body: "The Choctaw are a people indigenous to the Southeastern Woodlands region of the U.S. (modern Louisiana, Mississippi, and Alabama).",
-    questions: [117]
+    questions: [117],
   },
-  "liz": {
+  liz: {
     body: "Susan B. Anthony and Elizabeth Cady Stanton were key figures in the women’s suffrage movement.",
-    questions: [99]
+    questions: [99],
   },
-  "y1920": {
+  y1920: {
     body: "Women got the vote in 1920.",
-    questions: [102]
+    questions: [102],
   },
-  "fdr": {
+  fdr: {
     body: "Franklin D. Roosevelt was president during the Great Depression.",
-    questions: [105]
+    questions: [105],
   },
-  "y1929": {
+  y1929: {
     body: "The stock market crash of 1929 kicked off the Great Depression.",
-    questions: [104]
+    questions: [104],
   },
-  "vote18": {
+  vote18: {
     body: "The 26th amendment establishes that U.S. citizens over 18 have the right to vote.",
-    questions: [63]
+    questions: [63],
   },
-  "civic": {
+  civic: {
     body: "Voting is one example of civic participation in the United States.",
-    questions: [69]
+    questions: [69],
   },
-  "service": {
+  service: {
     body: "Voting is one way in which citizens of the United States can serve their country.",
-    questions: [70]
+    questions: [70],
   },
-  "senate": {
+  senate: {
     body: "Each state has two senators (for 100 total). A senator’s term lasts six years. The Senate is one of the parts of the U.S. Congress.",
-    questions: [19, 21, 22, 27]
+    questions: [19, 21, 22, 27],
   },
-  "house": {
+  house: {
     body: "The House of Representatives has 435 voting members. The House is one of the parts of the U.S. Congress.",
-    questions: [19, 24]
+    questions: [19, 24],
   },
-  "driver": {
+  driver: {
     body: "Only states can provide driver’s licenses.",
-    questions: [59]
+    questions: [59],
   },
-  "tenth": {
+  tenth: {
     body: "The 10th Amendment establishes that the powers not given to the federal government belong to the states or the people.",
-    questions: [60]
+    questions: [60],
   },
-  "ben": {
+  ben: {
     body: "Benjamin Franklin was a diplomat and helped Thomas Jefferson write the Declaration of Independence.",
-    questions: [85]
+    questions: [85],
   },
-  "tom": {
+  tom: {
     body: "Thomas Jefferson wrote the Declaration of Independence.",
-    questions: [78, 87]
+    questions: [78, 87],
   },
-  "taxation": {
+  taxation: {
     body: "Taxation without representation was a key driver of the American Revolution.",
-    questions: [9, 77]
+    questions: [9, 77],
   },
-  "abe": {
+  abe: {
     body: "Abraham Lincoln was President during the Civil War and was assassinated toward the end of the Civil War.",
-    questions: [93, 94]
+    questions: [93, 94],
   },
-  "dwight": {
+  dwight: {
     body: "Dwight D. Eisenhower was the 34th president.",
-    questions: [107]
+    questions: [107],
   },
-  "citizens": {
+  citizens: {
     body: "You can become a U.S. citizen by being born in the U.S., naturalizing, or deriving citizenship.",
-    questions: [68]
+    questions: [68],
   },
-  "fourteenth": {
+  fourteenth: {
     body: "The 14th amendment is the constitutional basis of birthright citizenship and establishes that anyone born in or naturalized in the United States is a citizen of the United States.",
-    questions: [97]
-  }
+    questions: [97],
+  },
 };
